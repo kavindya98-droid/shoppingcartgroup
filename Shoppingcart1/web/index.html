@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mate Shopping Cart</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            
+            <form method="POST" action="Shoppingservlet" >
+            
+            <label>product Id</label>
+            <input id="productid" name="productid" type="text" value="">
+            <br/>
+            <label>Product Name</label>
+            <input id="productname"  name="productname" type="text" >
+            <br/>
+            <label>product QTY</label>
+            <input id="productqty" name="productqty" type="text" value="">
+            <br/>
+            <label>Product Price</label>
+            <input id="productprice" name="productprice" type="text" >
+            <br/>
+            <input type="submit" value="Add to cart">
+            
+           </form>
+            
+            
+        </div>
+        
+        <br/>
+        
+                <div>
+                    
+                    <h1>Update Products</h1>
+            
+            <form method="POST" action="Shoppingservletupdate" >
+            
+            <label>product Id</label>
+            <input id="productid" name="productid" type="text" value="">
+            <br/>
+            <label>Product Name</label>
+            <input id="productname"  name="productname" type="text" >
+            <br/>
+            <label>product QTY</label>
+            <input id="productqty" name="productqty" type="text" value="">
+            <br/>
+            <label>Product Price</label>
+            <input id="productprice" name="productprice" type="text" >
+            <br/>
+            <input type="submit" value="Update">
+            
+           </form>
+            
+            
+        </div>
+        
+        
+                <div>
+                    
+                    <h1>Delete Products</h1>
+            
+            <form method="POST" action="Shoppingservletdelete" >
+            
+            <label>product Id</label>
+            <input id="productid" name="productid" type="text" value="">
+            <br/>
+            
+            <input type="submit" value="Delete">
+            
+           </form>
+            
+            
+        </div>
+        
+           <div>
+                    
+                    <h1>Load All</h1>
+            
+            <form method="POST" action="Shoppingservletall" >
+            
+            
+            
+            <input type="submit" value="Load All">
+            
+           </form>
+            
+            
+        </div>
+        
+    </body>
+</html>
